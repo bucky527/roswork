@@ -1,0 +1,8 @@
+prefix=/home/hyuk/roswork/workspace1/devel
+
+Name: dynamixel_sdk
+Description: Description of dynamixel_sdk
+Version: 3.7.21
+Cflags: -I/home/hyuk/roswork/workspace1/src/DynamixelSDK/ros/include
+Libs: -L${prefix}/lib -ldynamixel_sdk
+Requires: roscpp rospy

@@ -1,0 +1,3 @@
+<launch>
+  <arg name="worldname" value="$(find mrobot_gazebo)/worlds/cloister.world">
+</launch>

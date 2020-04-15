@@ -1,0 +1,8 @@
+prefix=/home/hyuk/roswork/workspace1/devel
+
+Name: gostudy
+Description: Description of gostudy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
