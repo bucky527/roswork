@@ -136,7 +136,7 @@
         </link>
 
         <gazebo reference="${fb}_caster_link">
-            <material>Gazebo/Black</material>
+            <material>Gazebo/Red</material>
         </gazebo>
 
         <joint name="base_to_${fb}_caster_joint" type="fixed">

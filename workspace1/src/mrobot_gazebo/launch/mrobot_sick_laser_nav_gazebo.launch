@@ -19,6 +19,7 @@
     </include>
 
     <!-- 加载机器人模型描述参数 -->
+    <!-- 直接调用xacro解析器 -->
     <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find mrobot_gazebo)/urdf/mrobot_with_sick_tim571.urdf.xacro'" /> 
 
     <!-- 运行joint_state_publisher节点，发布机器人的关节状态  -->

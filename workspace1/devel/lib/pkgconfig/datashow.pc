@@ -1,0 +1,8 @@
+prefix=/home/hyuk/roswork/workspace1/devel
+
+Name: datashow
+Description: Description of datashow
+Version: 0.0.0
+Cflags: -I/home/hyuk/roswork/workspace1/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
